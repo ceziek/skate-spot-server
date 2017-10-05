@@ -4,10 +4,10 @@
   "private": true,
   "main": "dist",
   "scripts": {
-    "dev": "nodemon -w src --exec \"babel-node src/app.js --presets es2015,stage-0\"",
+    "dev": "nodemon -w src --exec \"babel-node src/index.js --presets es2015,stage-0\"",
     "build": "babel src -s -D -d dist --presets es2015,stage-0",
     "start": "node dist",
-    "prestart": "npm run -s build",
+    "prestart": "npm run -s build"
   },
   "author": "Piotr Pliszczynski <fookoo@gmail.com>",
   "license": "MIT",
