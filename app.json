@@ -1,17 +1,4 @@
 {
   "name": "skate-spot-server",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  "image": "heroku/nodejs"
 }
